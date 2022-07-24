@@ -47,7 +47,7 @@ namespace Coco_Master.Views
 
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
         }
 
         private void gridHeader_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
