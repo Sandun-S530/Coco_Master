@@ -79,7 +79,7 @@ namespace Coco_Master.Views
             if (txtUserName.Text == UserName || txtPassword.Password == Password)
             {
                 this.Hide();
-                
+                new ShellView().Show(); 
                             
             }
             else

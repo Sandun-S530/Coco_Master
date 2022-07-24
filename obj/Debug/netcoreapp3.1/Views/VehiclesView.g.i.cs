@@ -53,7 +53,7 @@ namespace Coco_Master.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Coco Master;V1.0.0.0;component/views/vehiclesview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Coco Master;component/views/vehiclesview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\VehiclesView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
