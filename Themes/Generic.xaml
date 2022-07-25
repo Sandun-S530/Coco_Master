@@ -23,7 +23,7 @@
                             </Grid.RowDefinitions>
                             <Grid>
 
-                                <Grid>
+                                <Grid x:Name="button" Background="Transparent">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="8"/>
                                         <ColumnDefinition Width="62"/>
@@ -71,7 +71,8 @@
                             </Trigger.ExitActions>
                         </Trigger>
                         <Trigger Property="IsFocused" Value="True">
-                            <Setter Property="Background" TargetName="border" Value="#FFAFDAFF"/>
+                            <Setter Property="Background" TargetName="border" Value="White"/>
+                            <!--<Setter Property="Background" TargetName="button" Value="#FF457DC1"/>-->
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

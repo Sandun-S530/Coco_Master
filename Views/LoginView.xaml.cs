@@ -9,7 +9,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using MaterialDesignThemes.Wpf;
+
 
 namespace Coco_Master.Views
 {
@@ -79,8 +79,6 @@ namespace Coco_Master.Views
             if (txtUserName.Text == UserName || txtPassword.Password == Password)
             {
                 this.Hide();
-                new ShellView().Show(); 
-                            
             }
             else
             {
